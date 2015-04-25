@@ -18,18 +18,18 @@ Contains with 3 Readability test
  require 'readability'
  testing = Readabilty.new
  testing.ari(no_sentences, no_words, no_characters)   			
- ```
+```
  
 * For Coleman–Liau index 
- ```ruby
+```ruby
  require 'readability'
  testing = Readabilty.new
  testing.cli(no_sentences, no_words, no_letters)			
- ```
+```
  
 * For Flesch–Kincaid readability tests
- ```ruby
+```ruby
  require 'readability'
  testing = Readabilty.new
  testing.fres(total_sentences, total_words, total_syllables)	
- ```
+```
