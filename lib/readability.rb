@@ -4,7 +4,7 @@ class Readability
   	# The formula for calculating the Automated Readability Index is given below:
   	# 4.71*(characters\words) + 0.5*(words\sentences)  - 21.43
 	def ari(no_sentences, no_words, no_characters)
-		ari = 4.71*(no_characters/no_words) + 0.5*(no_words/no_sentences)
+		ari = 4.71*(no_characters/no_words) + 0.5*(no_words/no_sentences) - 21.43
 		ari
 	end
 
