@@ -1,5 +1,13 @@
 class Readability
 
+	def initialize()
+		puts "-----------------------------------------------------------------"
+		puts "For ARI Usage (no_sentences, no_words, no_characters)"
+		puts "For CLI Usage (no_sentences, no_words, no_letters)"
+		puts "For ARI Usage (total_sentences, total_words, total_syllables)"
+		puts "-----------------------------------------------------------------"
+	end
+
 	# http://en.wikipedia.org/wiki/Automated_Readability_Index
   	# The formula for calculating the Automated Readability Index is given below:
   	# 4.71*(characters\words) + 0.5*(words\sentences)  - 21.43
